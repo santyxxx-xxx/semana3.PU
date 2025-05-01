@@ -20,7 +20,7 @@ public class Main {
 
         }
         for (int i = 0; i < cocinero.length; i++) {
-            System.out.println("cocineros");
+            System.out.println("-------------Cocinero----------"+(i+1));
             cocinero[i].mostrar();
         }
     scanner.close();

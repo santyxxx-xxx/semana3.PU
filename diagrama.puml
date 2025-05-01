@@ -1,0 +1,28 @@
+@startuml
+class Cocinero{
+String nombre;
+int experiencia;
+String especialidad;
+mostrar()
+}
+object cocinero1{
+String nombre=Santy;
+int experiencia=5;
+String especialidad=chef;
+}
+object cocinero2{
+String nombre=Kyara;
+int experiencia=15;
+String especialidad=mesera;
+}
+object cocinero3{
+String nombre=Alejandroo;
+int experiencia=1;
+String especialidad=ninguna;
+}
+Cocinero -- cocinero1
+Cocinero -- cocinero2
+Cocinero -- cocinero3
+
+@enduml
+

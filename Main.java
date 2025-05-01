@@ -36,8 +36,11 @@ public class Main {
         especialidad3 = scanner.nextLine();
         Cocinero c3 = new Cocinero(nombre1, experiencia1, especialidad1);
 
+        System.out.println("-----------Cocinero 1------------");
         c1.mostrar();
+        System.out.println("-----------Cocinero 2------------");
         c2.mostrar();
+        System.out.println("-----------Cocinero 3------------");
         c3.mostrar();
 
     scanner.close();
